@@ -57,15 +57,15 @@ Qubo is an AI-powered web application that allows users to ask questions and rec
 
 2. Install dependencies:
 
-   '''bash
+   ```bash
    npm install
 3. Create a .env file and add your Firebase and Supabase credentials:
 
-   '''makefile
+   ```makefile
    VITE_FIREBASE_API_KEY=<your_firebase_api_key>
    VITE_SUPABASE_URL=<your_supabase_url>
    
 4. Start the frontend:
-   '''bash
+   ```bash
    npm run dev
    
