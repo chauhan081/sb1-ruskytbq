@@ -56,3 +56,12 @@ export const ModelViewer: React.FC<ModelViewerProps> = ({ data }) => {
     </div>
   );
 };
+
+// useEffect(() => {
+//     const fetchModel = async () => {
+//         const response = await fetch('/api/ai/model');
+//         const data = await response.json();
+//         setModelData(data);
+//     };
+//     fetchModel();
+// }, []);
