@@ -55,14 +55,17 @@ Qubo is an AI-powered web application that allows users to ask questions and rec
    git clone https://github.com/chauhan081/sb1-ruskytbq.git
    cd sb1-ruskytbq
 
----
+2. Install dependencies:
 
-## **Installation**
+   '''bash
+   npm install
+3. Create a .env file and add your Firebase and Supabase credentials:
 
-### **Frontend Setup (React + Vite)**
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/chauhan081/sb1-ruskytbq.git
-   cd sb1-ruskytbq
+   '''makefile
+   VITE_FIREBASE_API_KEY=<your_firebase_api_key>
+   VITE_SUPABASE_URL=<your_supabase_url>
+   
+4. Start the frontend:
+   '''bash
+   npm run dev
+   
